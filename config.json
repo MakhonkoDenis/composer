@@ -1,0 +1,32 @@
+{
+	"theme_name"     : "blank",
+	"framework_name" : "cherry-framework",
+	"token"          : "",
+	"deploy_folder"  : "/uploads/",
+	"download_folder": "/download/",
+	"ext"            : "zip",
+	"theme_branches" : {
+		"blog"     : "Blog",
+		"magazine" : "Magazine",
+		"business" : "Business"
+	},
+	"delete_files"   : [
+		".map",
+		".gitignore",
+		".gitmodules",
+		".git",
+		"README.md",
+		"config.json",
+		"readme.txt",
+		".jscsrc",
+		".jshintignore",
+		"codesniffer.ruleset.xml",
+		".travis.yml",
+		"travis.sh",
+		"cherry-plugin-updater",
+		"cherry-theme-updater",
+		"cherry-page-builder",
+		"cherry-post-types",
+		"cherry-taxonomies"
+	]
+}
